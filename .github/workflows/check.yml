@@ -2,7 +2,7 @@ name: build debug
 
 on:
   push:
-    branches: [ main ] # Just in case main was not up to date while merging PR
+    branches: [ develop ] # Just in case main was not up to date while merging PR
   pull_request:
     types: [ opened, synchronize ]
 
